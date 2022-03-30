@@ -14,6 +14,6 @@ elif n <= 700:
 else:
     summer = 120 * 2.1 + 210 * 3.02 + 170 * 4.39 + 200 * 4.97 + (n-700) * 5.63
     notsummer = 120 * 2.1 + 210 * 2.68 + 170 * 3.61 + 200 * 4.01 +(n-700) * 4.5
-print("Summer months:",summer)
-print("Non-Summer months:",notsummer)
+print("Summer months: %.2f"%(summer))
+print("Non-Summer months: %.2f"%(notsummer))
 

@@ -5,3 +5,4 @@ list2= []
 for i in list1:
     a = list1.count(list1[i])
     list2.append(a)
+###
